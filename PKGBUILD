@@ -1,18 +1,18 @@
 
-pkgname=plank-themes-git
-_pkgname=amos-plank-themes
-_destname1="/usr/share/plank/themes/"
+pkgname=icon-themes-git
+_pkgname=icon-themes
+_destname1="/usr/share/icons/"
 pkgver=1
 pkgrel=01
-pkgdesc="Plank themes for amos"
+pkgdesc="icon-themes"
 arch=('any')
-url="https://github.com/amanre/plank-themes"
+url="https://github.com/amanre/icon-themes"
 license=('GPL3')
 makedepends=('git')
 depends=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
-source=(${_pkgname}::git+https://github.com/amanre/plank-themes.git)
+source=(${_pkgname}::git+https://github.com/amanre/icon-themes.git)
 sha256sums=('SKIP')
 package() {
 
