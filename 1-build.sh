@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-destination="/home/amanre/CUSTOM/custom_repo/x86_64/"
+destination="/home/amanre/CUSTOM/amoslinux_repo/x86_64/"
 
 			makepkg -f
 
@@ -13,5 +13,5 @@ destination="/home/amanre/CUSTOM/custom_repo/x86_64/"
 			echo "#############################################################################################"
 			echo "################  "$(basename `pwd`)" done"
 			echo "#############################################################################################"
-			
-		
+
+

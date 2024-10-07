@@ -2,7 +2,7 @@
 pkgname=icon-themes-git
 _pkgname=icon-themes
 _destname1="/usr/share/icons/"
-pkgver=23.12
+pkgver=24.10
 pkgrel=01
 pkgdesc="icon-themes"
 arch=('any')
